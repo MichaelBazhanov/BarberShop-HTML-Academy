@@ -1,0 +1,227 @@
+@font-face {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/pt-sans/pt-sans-400.woff") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans/pt-sans-700.woff") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-narrow/pt-sans-narrow-700.woff") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  background-color: #fbf7f4;
+}
+
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Pages */
+.page-header {
+  color: #ffffff;
+  background: #000000;
+}
+
+.navigation-link {
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  color: inherit;
+  background-color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.page-index {
+  color: #ffffff;
+  background-color: #000000;
+  background-image: url("../images/backgrounds/page-index-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+/* List */
+.advantages-list {
+  text-align: center;
+}
+
+/* Title */
+.advantages-title {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 32px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+/* Index columns */
+.index-columns {
+  color: #242424;
+  background-color: #fbf7f4;
+  background-image: url("../images/backgrounds/noisy-bg.png");
+}
+
+/* Services*/
+.services {
+  text-transform: uppercase;
+}
+
+/* Title */
+.services-title {
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 700;
+}
+
+/* Price */
+.services-list {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.services-price {
+  color: #af7842;
+}
+
+/* Title */
+.gallery-title {
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contacts {
+  font-weight: 700;
+}
+
+/* Title */
+.contacts-title {
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contacts-address {
+  font-style: normal;
+}
+
+/* Subtitle */
+.contacts-subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #af7842;
+}
+
+/* Phone */
+.contacts-phone {
+  font-size: 24px;
+  line-height: 29px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #242424;
+}
+
+/* Title */
+.appointment-title {
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* List */
+.appointment-form {
+  color: #595959;
+}
+
+/* Label */
+.form-label {
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.page-footer {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #242424;
+  background-image: url("../images/backgrounds/noisy-bg.png");
+  background-repeat: repeat;
+}
+
+.page-footer a {
+  color: #ffffff;
+}
+
+.page-footer .about-link {
+  font-size: 14px;
+  color: #dbb590;
+}
+
+.page-footer-title {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer-contacts-address {
+  font-style: normal;
+}
+
+.footer-contacts-address p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.footer-contacts-address-phone {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.footer-contacts-map-link {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
